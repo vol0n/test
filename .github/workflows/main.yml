@@ -15,6 +15,9 @@ jobs:
       - name: Run build
         run: ./gradlew build
 
+      - name: Run gradle check
+        run: ./gradlew check
+
       - name: Run tests
         run: ./gradlew test
 
