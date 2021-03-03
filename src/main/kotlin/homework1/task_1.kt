@@ -11,7 +11,6 @@ fun factorialIter(n: Int): Int {
     return res
 }
 
-
 fun main() {
     val scan = java.util.Scanner(System.`in`)
     println("To quit enter: 'q'")
